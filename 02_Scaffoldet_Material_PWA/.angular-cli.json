@@ -1,0 +1,12 @@
+{
+  "apps": [
+    {
+      "index": "index.html",
+      "root": "src",
+      "main": "main.ts",
+      "styles": [
+        "../node_modules/@angular/material/prebuilt-themes/indigo-pink.css"
+      ]
+    }
+  ]
+}
