@@ -13,7 +13,7 @@ import { RouterModule, PreloadAllModules } from '@angular/router';
 
 @NgModule({
   imports: [
-    // BrowserModule,
+    BrowserModule,
     FormsModule,
     HttpClientModule,
     

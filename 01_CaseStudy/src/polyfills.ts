@@ -71,11 +71,4 @@ import 'zone.js/dist/zone';  // Included with Angular CLI.
  */
 // import 'intl/locale-data/jsonp/en';
 
-let supportsCustomElements = ('customElements' in window);
-
-if (supportsCustomElements) {
-    import('@webcomponents/webcomponentsjs/custom-elements-es5-adapter');
-}
-else {
-    import('@webcomponents/webcomponentsjs/webcomponents-sd-ce');    
-}
+//import '@webcomponents/custom-elements/custom-elements.min';

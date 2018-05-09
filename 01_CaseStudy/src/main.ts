@@ -15,10 +15,12 @@ if (environment.production) {
 
 
 
+platformBrowserDynamic().bootstrapModule(AppModule);
 
-
-
-
-// platformBrowserDynamic().bootstrapModule(AppModule);
-
-renderComponent(AppComponent)
+// renderComponent(AppComponent)
+/*
+  // "angularCompilerOptions": {
+  //   "enableIvy": true
+  // }
+  
+*/
